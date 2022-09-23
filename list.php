@@ -12,6 +12,11 @@
     <h1 id="title" align="center">LISTADO PEDIDOS</h1>
 
 	<?php
+	usort($_SESSION['arr'],function ($a,$b)
+    {
+        if($_SESSION['arr']!=null)
+        return $a["NumPedido"] < $b["NumPedido"] ? 1 : -1;
+    });
       for ($i=0; $i<count($_SESSION['arr']);$i++ )
 		{
 	?>
