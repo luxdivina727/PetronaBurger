@@ -1,0 +1,42 @@
+
+body{
+    /* background-image: url("https://www.beriestudio.es/wp-content/uploads/restaurante-palo-alto-03.jpg"); */
+    background-image:url("../Img/735b28a84a21dddde29a27f2daa5b719.jpg") ;
+}
+.form-control{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#titulo{
+    color: #ffffff;
+}
+#texto{
+    color:  rgb(255, 226, 206);
+    font-weight:bold;
+}
+.td{
+    color:  rgb(255, 226, 206);
+    font-weight:bold;  
+}
+.color{
+    color: white;
+}
+.color-background {background-color:#000000;}
+
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+#text{
+    color:  rgb(221, 175, 90);
+    font-weight:bold;
+}
+img{
+    width: 43%;
+    position: relative;
+    border-top:400%; 
+}
