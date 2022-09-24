@@ -15,7 +15,7 @@
 	usort($_SESSION['arr'],function ($a,$b)
     {
         if($_SESSION['arr']!=null)
-        return $a["NumPedido"] < $b["NumPedido"] ? 1 : -1;
+        return $a["NumPedido"] > $b["NumPedido"] ? 1 : -1;
     });
       for ($i=0; $i<count($_SESSION['arr']);$i++ )
 		{
